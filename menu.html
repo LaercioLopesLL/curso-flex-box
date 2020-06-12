@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+
+		.container{
+			display: flex;
+			border: solid 1px rgba(0,0,0,.2);
+			width: 500px;
+			margin: 0 auto;
+			flex-wrap: wrap;
+		}
+
+		.item{
+			background-color: red;
+			flex: 1;
+			min-width: 250px;
+			max-width: 300px;
+		}
+
+		.header{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		
+		.header h1{
+			display: inline;
+		}
+
+		.header ul{
+			list-style: none;
+			display: inline-block;
+		}
+
+		.header li{
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+
+	<header class="header">
+		<h1>Brand</h1>
+		<ul>
+			<li><a href="">Item</a></li>
+			<li><a href="">Item</a></li>
+			<li><a href="">Item</a></li>
+		</ul>
+	</header>
+
+</body>
+</html>
